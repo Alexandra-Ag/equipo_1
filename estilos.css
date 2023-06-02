@@ -1,0 +1,44 @@
+body{
+    background:linear-gradient();
+}
+
+/* Estilos para los botones */
+button {
+    padding: 10px 20px;
+    background: linear-gradient(to right, #D4AF37, #7b4397);
+    color: white;
+    border: none;
+    border-radius: 10px; /* Ajusta el radio de los bordes redondeados */
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    position: absolute;
+  }
+  
+  /* Estilo específico para el botón "Crear álbum" */
+  button.crear-album {
+    background: linear-gradient(to right, #D4AF37, #7b4397);
+    left: 40px; /* Ajusta la posición horizontal */
+    top: 50px; /* Ajusta la posición vertical */
+  }
+  
+  /* Estilo específico para el botón "Borrar álbum" */
+  button.borrar-cancion {
+    background: linear-gradient(to right, #D4AF37, #7b4397);
+    left: 40px; /* Ajusta la posición horizontal */
+    top: 300px; /* Ajusta la posición vertical */
+  }
+  
+  /* Estilo específico para el botón "Agregar canción" */
+  button.agregar-cancion {
+    background: linear-gradient(to right, #D4AF37, #7b4397);
+    left: 40px; /* Ajusta la posición horizontal */
+    top: 400px; /* Ajusta la posición vertical */
+  }
+  
+  /* Animación al pasar el cursor sobre los botones */
+  button:hover {
+    background-color: lightgoldenrodyellow;
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el cursor */
+  }
+  

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Álbumes de Música</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+  <button class="agregar-cancion">Agregar canción</button>
+  <button class="borrar-cancion"><i class="fas fa-trash"></i> Borrar Cancion</button>
+  <button class="agregar-cancion"><i class="fas fa-plus-circle"></i> Agregar canción</button> 
+
+    <h1>Mis Álbumes de Música</h1>
+    
+    <form id="album-form">
+        <label for="album-title">Título del Álbum:</label>
+        <input type="text" id="album-title" required>
+        
+        <label for="album-artist">Artista:</label>
+        <input type="text" id="album-artist" required>
+        
+        <label for="album-year">Año de Lanzamiento:</label>
+        <input type="number" id="album-year" required>
+
+        <label for="album-file">Archivo MP3:</label>
+        <input type="file" id="album-file" accept=".mp3" required>
+        <br>
+        <br>
+        <button type="submit">Agregar Álbum</button>
+    </form>
+    <br>
+    <br>
+    <h2>Mis Álbumes</h2>
+    <ul id="album-list"></ul>
+    
+    <script>
+        document.getElementById("album-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Evita el envío del formulario
+            
+            // Obtener los valores ingresados por el usuario
+            var albumTitle = document.getElementById("album-title").value;
+            var albumArtist = document.getElementById("album-artist").value;
+            var albumYear = document.getElementById("album-year").value;
+            var albumFile = document.getElementById("album-file").files[0];
+            
+            // Crear un nuevo elemento de lista para mostrar el álbum
+            var albumItem = document.createElement("li");
+            
+            // Construir el contenido del elemento de lista
+            albumItem.innerHTML = albumTitle + " - " + albumArtist + " (" + albumYear + ")";
+            
+            // Agregar el elemento de lista al listado de álbumes
+            document.getElementById("album-list").appendChild(albumItem);
+            
+            // Restablecer los valores del formulario
+            document.getElementById("album-form").reset();
+        });
+    </script>
+</body>
+</html>
