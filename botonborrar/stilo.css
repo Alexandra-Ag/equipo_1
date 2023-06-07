@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.ALBUM {
+	width: 400px;
+	background-color: rgb(139, 6, 157);
+	padding: 15px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 20px;
+	font-family: 'calibri';
+	color: #Ffd700(244, 252, 11);
+	box-shadow: 2px 4px 15px #Ffd700;
+}
+.MisDatos h4 {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+.caja{
+	width: 100%;
+	background-color: #fcfeff;
+	padding: 10px;
+	border: 1px solid #Ffd700;
+	border-radius: 7px;
+	margin-bottom: 16px;
+	font-family: 'calibri';
+	font-size: 16px;
+}
+
+.botones{
+	width: 100%;
+	background-color: #9516de;
+	border: none;
+	padding: 2px ;
+	color:#Ffd700(248, 167, 38);
+	margin: 6px 0;
+	font-size: 16px;
+	font-family: 'calibri';
+}

@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end ;
+  align-items: center;
+  height: 100vh;
+  background: purple;
+  font-family:'Courier New', Courier, monospace;
+}
+  .btn-neon{
+
+    position: left;
+    display: inline-block;
+    padding: 10px 12px;
+    color: gold;
+    letter-spacing: 2px;
+    font-size: 9px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: #a945c7;
+    border: #a945c7;
+    height: 40px;
+    width: 70px;
+    justify-content: flex-start ;
+  }
+
+  .btn-neon:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7,0 0 80px #a945c7;
+
+  }
+
+
+  
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Nombre</title>
+	<link rel="stylesheet" type="text/css" href="stilo.css">
+    <link rel="stylesheet" href="stilo.css">
+	<script type="text/javascript">
+
+		function validar(){
+			var us=document.getElementById("Nombre de la carpeta");
+
+			if((us.value==null) || (us.value=="")){
+				alert("tienes que llenar este campo")
+					return false;
+				}
+					else{
+						alert(us.value+"Bienvenido");
+							return true;
+						}
+
+		}
+	</script>
+</head>
+<body>
+	<form action="pagina2.html" onsubmit="return validar()">
+	<section class="ALBUM">
+		<h4>Nombre del album</h4>
+		<input class="caja" type="text" name="Nombre" id="Nombre de la carpeta" placeholder="Nombre del album">
+		<input class="botones" type="submit" name="" value="SIGUIENTE">
+	</section>
+</form>
+</body>
+</html>
