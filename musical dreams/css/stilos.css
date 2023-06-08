@@ -1,0 +1,40 @@
+body {
+    background-color: #F8F8F8;
+}
+
+h1, h2 {
+    color: #6B3E99;
+}
+
+label {
+    color: #6B3E99;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], input[type="file"] {
+    margin: 2px;
+    border: 1px solid #6B3E99;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+button[type="submit"] {
+    background-color: #D4AF37;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+audio {
+    margin-top: 10px;
+}
