@@ -1,0 +1,84 @@
+body{
+  background:linear-gradient();
+}
+
+/* Estilos para los botones */
+button {
+  padding: 10px 20px;
+  background: linear-gradient(to right, #D4AF37, #7b4397);
+  color: white;
+  border: none;
+  border-radius: 10px; /* Ajusta el radio de los bordes redondeados */
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+  position: absolute;
+}
+
+/* Estilo específico para el botón "Crear álbum" */
+button.crear-album {
+  background: linear-gradient(to right, #7b4397);
+  left: 200px; /* Ajusta la posición horizontal */
+  top: 300px; /* Ajusta la posición vertical */
+}
+
+button.Editar-Informacion {
+  background: linear-gradient(to right, #D4AF37, #7b4397);
+  left: 220px; /* Ajusta la posición horizontal */
+  top: 60px; /* Ajusta la posición vertical */
+}
+
+/* Estilo específico para el botón "Borrar álbum" */
+button.borrar-cancion {
+  background: linear-gradient(to right, #D4AF37, #7b4397);
+  left: 600px; /* Ajusta la posición horizontal */
+  top: 260px; /* Ajusta la posición vertical */
+}
+
+/* Estilo específico para el botón "Agregar canción" */
+button.agregar-cancion {
+  background: linear-gradient(to right, #D4AF37, #7b4397);
+  left: 400px; /* Ajusta la posición horizontal */
+  top: 260px; /* Ajusta la posición vertical */
+}
+
+/* Animación al pasar el cursor sobre los botones */
+button:hover {
+  background-color: rgb(243, 243, 23);
+  transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el cursor */
+}
+
+.add-song-button {
+  margin-top: 200px; /* Ajusta el valor según la cantidad de píxeles que deseas mover el botón */
+  left: 15px;
+}
+
+.add-album-button {
+  margin-left: 30px; /* Ajusta el valor según la cantidad de píxeles que deseas mover el botón horizontalmente */
+  left: 300px; /* Ajusta la posición horizontal */
+  top: 200px; /* Ajusta la posición vertical */
+}
+.btn-neon{
+
+  left: 500px;
+  display: inline-block;
+  padding: 10px 12px;
+  color: gold;
+  letter-spacing: 2px;
+  font-size: 9px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+  background-color: #a945c7;
+  border: #a945c7;
+  height: 40px;
+  width: 70px;
+  justify-content: flex-start ;
+  margin-top: -65px;
+}
+
+.btn-neon:hover{
+  background: #a945c7;
+  box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7,0 0 80px #a945c7;
+
+}
